@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/005/179/618/non_2x/romantic-couple-in-starry-night-background-widescreen-starry-night-background-free-vector.jpg);
+    color: blanchedalmond;
+    margin-bottom: 15%;
+}
+a {
+    color: aquamarine;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+}
+p {
+    text-align: center;
+    margin-bottom: 8%;
+}
+.texto{
+    text-align: left;
+}
+.video{
+    float: right;
+    margin-right: 5%;
+}
+.personajes{
+    margin-left: 30%;
+    position: relative;
+    overflow: visible;
+    margin-top: -38%;
+    width:fit-content;
+}
+.personajes ul {
+    list-style-type: none;
+    padding: 0;
+}
+.personajes li {
+    margin: 3px 0;
+    color: aquamarine;
+    text-decoration-line: underline;
+}
+.personaje {
+    position: relative;
+    margin: 10px;
+    display: block;
+}
+
+.personaje a {
+    text-decoration: none;
+    color: aquamarine
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.ficha {
+    display: none;
+    position: absolute;
+    top: -20%; /* un poco debajo del nombre */
+    left: 150%;
+    transform: translateX(-60%);
+    background: rgba(40, 30, 60, 0.95);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 4);
+    width: 220px;
+    text-align: left;
+    font-size: 0.9em;
+    z-index: 10;
+}
+.personaje:hover .ficha {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+/*@keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, 10px); }
+    to { opacity: 1; transform: translate(-50%, 0); }
+}*/
